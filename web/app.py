@@ -6,7 +6,7 @@
 
 import requests
 import streamlit as st
-from streamlit_lottie import st_lottie
+# from streamlit_lottie import st_lottie
 
 # crear la web
 st.set_page_config(page_title="Rental Bikes Number Predictor", page_icon="\U0001F6B2", layout="wide")
@@ -47,7 +47,8 @@ with st.container():
         st.write("Please, insert the information regarding the circunstances of the prediction date.")
 
     with right_column:
-        st_lottie(animacion, height=300, key="coding")
+        # st_lottie(animacion, height=300, key="coding")
+        st.empty()
 
 # cuerpo, pedir variables
 with st.container():
