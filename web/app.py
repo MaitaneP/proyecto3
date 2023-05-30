@@ -30,7 +30,7 @@ animacion = load_lottie_url("https://assets2.lottiefiles.com/packages/lf20_ZSqxI
 
 
 # logo
-logo = Image.open('images/logo.png')
+logo = Image.open('web/images/logo.png')
 
 
 # usar css local
