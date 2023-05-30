@@ -50,7 +50,7 @@ def predictor_bicis(date, temperature, humidity, windspeed):
         df['season'] = 'winter'
     # estandarizacion
     numericas = df.select_dtypes(include=np.number).drop(['year', 'month'], axis= 1)
-    with open("../datos/robust.pkl", "rb") as modelo:
+    with open("datos/robust.pkl", "rb") as modelo:
         robust = pickle.load(modelo)
     x_robust = robust.transform(numericas)
     numericas_robust = pd.DataFrame(x_robust, columns=numericas.columns)
