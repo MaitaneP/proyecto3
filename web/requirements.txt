@@ -20,6 +20,7 @@ cycler==0.11.0
 debugpy @ file:///home/builder/ci_310/debugpy_1640789504635/work
 decorator @ file:///opt/conda/conda-bld/decorator_1643638310831/work
 defusedxml @ file:///tmp/build/80754af9/defusedxml_1615228127516/work
+docopt==0.6.2
 emoji==2.4.0
 entrypoints @ file:///tmp/build/80754af9/entrypoints_1649908313000/work
 et-xmlfile==1.1.0
@@ -73,6 +74,7 @@ patsy==0.5.3
 pexpect @ file:///tmp/build/80754af9/pexpect_1605563209008/work
 pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
 Pillow==9.5.0
+pipreqs==0.4.13
 platformdirs @ file:///opt/conda/conda-bld/platformdirs_1662711380096/work
 prometheus-client @ file:///tmp/abs_d3zeliano1/croots/recipe/prometheus_client_1659455100375/work
 prompt-toolkit @ file:///croot/prompt-toolkit_1672387306916/work
@@ -129,4 +131,5 @@ watchdog==3.0.0
 wcwidth @ file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work
 webencodings==0.5.1
 websocket-client @ file:///home/builder/ci_310/websocket-client_1640795866898/work
+yarg==0.1.9
 zipp==3.15.0
