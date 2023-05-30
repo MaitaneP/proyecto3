@@ -11,8 +11,8 @@ from PIL import Image
 import pandas as pd
 import numpy as np
 import sys
-sys.path.append('../')
-from web import prediccion as pdc
+# sys.path.append('../')
+import prediccion as pdc
 
 
 # crear la web
