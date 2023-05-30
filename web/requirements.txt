@@ -1,5 +1,5 @@
 altair==4.2.2
-anyio @ file:///tmp/build/80754af9/anyio_1644481695334/work/dist
+anyio 
 argon2-cffi @ file:///opt/conda/conda-bld/argon2-cffi_1645000214183/work
 argon2-cffi-bindings @ file:///tmp/build/80754af9/argon2-cffi-bindings_1644553347904/work
 asttokens @ file:///opt/conda/conda-bld/asttokens_1646925590279/work
