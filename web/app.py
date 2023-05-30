@@ -63,7 +63,7 @@ with st.container():
         st.subheader("We need your help for the predictor to do its job.")
         st.write("##")
         st.subheader("Please, insert the information regarding the circunstances of the prediction date.")
-        st.subheader("\U0001F6B4 \U0001F6B4 \U0001F6B4 \U0001F6B4 \U0001F6B4 \U0001F6B4 \U0001F6B4 \U0001F6B4 \U0001F6B4 \U0001F6B4 \U0001F6B4 \U0001F6B4 \U0001F6B4 \U0001F6B4 \U0001F6B4 \U0001F6B4 \U0001F6B4")
+        st.subheader("\U0001F6B4 \U0001F6B4 \U0001F6B4 \U0001F6B4 \U0001F6B4 \U0001F6B4 \U0001F6B4 \U0001F6B4 \U0001F6B4 \U0001F6B4 \U0001F6B4 \U0001F6B4 \U0001F6B4 \U0001F6B4")
     with right_column:
         st_lottie(animacion, height=350, key="coding")
         # st.empty()
@@ -92,15 +92,15 @@ if submit_button:
     casual_pred, casual_min, casual_max, regist_pred, regist_min, regist_max = pdc.predictor_bicis(fecha, temperatura, humedad, viento)
     if tipo_modelo == 'casual':
         with st.expander("Results"):
-            df = pd.DataFrame({'User type': 'casual', 'Estimated value': casual_pred, 'Probable min': casual_min, 'Probable max': casual_max}, index = [0])
+            df = pd.DataFrame({'Date': fecha, 'User type': 'casual', 'Estimated value': casual_pred, 'Probable min': casual_min, 'Probable max': casual_max}, index = [0])
             st.dataframe(df)
     elif tipo_modelo == 'registered':
         with st.expander("Results"):
-            df = pd.DataFrame({'User type': 'registered', 'Estimated value': regist_pred, 'Probable min': regist_min, 'Probable max': regist_max}, index = [0])
+            df = pd.DataFrame({'Date': fecha, 'User type': 'registered', 'Estimated value': regist_pred, 'Probable min': regist_min, 'Probable max': regist_max}, index = [0])
             st.dataframe(df)
     else:
         with st.expander("Results"):
-            df = pd.DataFrame({'User type':['casual', 'registered'], 'Estimated value':[casual_pred, regist_pred], 'Probable min':[casual_min, regist_min], 'Probable max':[casual_max, regist_max]}, index = [0, 1])
+            df = pd.DataFrame({'Date': fecha, 'User type':['casual', 'registered'], 'Estimated value':[casual_pred, regist_pred], 'Probable min':[casual_min, regist_min], 'Probable max':[casual_max, regist_max]}, index = [0, 1])
             st.dataframe(df)
 
 
