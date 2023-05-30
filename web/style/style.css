@@ -9,7 +9,7 @@ input[type=message], input[type=email], input[type=text], textarea {
   /*margin-top: 6px; /* Add a top margin */
   /*margin-bottom: 16px; /* Bottom margin */
   resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
-  color: white;
+  color: black/*white;*/
 }
 
 /* Style the submit button with a specific background color etc */
