@@ -50,7 +50,7 @@ def predictor_bicis(date, temperature, humidity, windspeed):
         df['season'] = 'winter'
     # estandarizacion
     numericas = df.select_dtypes(include=np.number).drop(['year', 'month'], axis= 1)
-    with open("../datos/robust.pkl", "rb") as modelo:
+    with open("web/datos/robust.pkl", "rb") as modelo:
         robust = pickle.load(modelo)
     x_robust = robust.transform(numericas)
     numericas_robust = pd.DataFrame(x_robust, columns=numericas.columns)
@@ -85,9 +85,9 @@ def predictor_bicis(date, temperature, humidity, windspeed):
     df_registered['season'] = df_registered['season'].map(mapa_se_registered)
     df_registered['month'] = df_registered['month'].map(mapa_month_registered)
     # abrimos los modelos
-    with open("../datos/mejor_modelo_casual.pkl", "rb") as modelo_cas:
+    with open("web/datos/mejor_modelo_casual.pkl", "rb") as modelo_cas:
         mejor_modelo_casual = pickle.load(modelo_cas)
-    with open("../datos/mejor_modelo_registered.pkl", "rb") as modelo_reg:
+    with open("web/datos/mejor_modelo_registered.pkl", "rb") as modelo_reg:
         mejor_modelo_registered = pickle.load(modelo_reg)
     # realizamos las predicciones
     conteo_casual = mejor_modelo_casual.predict(df_casual)
