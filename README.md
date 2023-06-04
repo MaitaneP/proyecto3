@@ -48,22 +48,25 @@ Tras la diversas pruebas realizadas nos quedamos para ambos casos (casuales y re
 
 Siendo los usuarios registrados totales muy superiores a los casuales es coherente que su margen de error en términos absolutos sea mayor. Si analizamos este error en porcentaje encontramos que el de registrados es de solo un 7,81%, mientras que el de casuales es de 9,45%.
 
+**PRESENTACIÓN:**
+[Aquí](https://www.canva.com/design/DAFkPmhALLs/qVhicbY2j_bk1rgxzX7l_Q/view?utm_content=DAFkPmhALLs&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu) el enlace a la presentación de canva.
+
 **ORGANIZACIÓN DEL REPOSITORIO:**
 La documentación se ha organizado en las siguientes carpetas y archivos:
-- [**datos:**](https://github.com/Adalab/project-da-promo-D-module-3-team-1/tree/main/datos) Contiene los archivos con los datos de partida de origen, los datos tratados en sus distintas fases de limpieza y tratado y los resultados (mejores modelos).
-- [**web:**](https://github.com/Adalab/project-da-promo-D-module-3-team-1/tree/main/web) Incluye todos los archivos para el desarrollo de la web y la automatización de la predicción.
-- [**1_reconocimiento_inicial.ipynb:**](https://github.com/Adalab/project-da-promo-D-module-3-team-1/blob/main/1_reconocimiento_inicial.ipynb) Recoge los trabajos de reconocimiento y exploración inicial del dataset.
-- [**2_asunciones.ipynb:**](https://github.com/Adalab/project-da-promo-D-module-3-team-1/blob/main/2_asunciones.ipynb) Incluye el análisis de las asunciones para regresión lineal.
-- [**3_estandarizacion.ipynb:**](https://github.com/Adalab/project-da-promo-D-module-3-team-1/blob/main/3_estandarizacion.ipynb) Recoge las tareas de estandarización de las variables predictoras.
-- [**4.1_encoding.ipynb:**](https://github.com/Adalab/project-da-promo-D-module-3-team-1/blob/main/4.1_encoding.ipynb) Contiene las tareas de encoding de las variables predictoras en el dataset sin estandarizar.
-- [**4.2_encoding_con_estandarizacion.ipynb:**](https://github.com/Adalab/project-da-promo-D-module-3-team-1/blob/main/4.2_encoding_con_estandarizacion.ipynb) Recoge las tareas de encoding de las variables predictoras en el dataset estandarizado.
-- [**5.1_modelo_casual1.ipynb:**](https://github.com/Adalab/project-da-promo-D-module-3-team-1/blob/main/5.1_modelo_casual1.ipynb) Contiene los modelos con las variables sin estandarizar de tipo casual.
-- [**5.1_modelo_registered1.ipynb:**](https://github.com/Adalab/project-da-promo-D-module-3-team-1/blob/main/5.1_modelo_registered1.ipynb) Contiene los modelos con las variables sin estandarizar de tipo registered.
-- [**5.2_modelo_casual1_est.ipynb:**](https://github.com/Adalab/project-da-promo-D-module-3-team-1/blob/main/5.2_modelo_casual1_est.ipynb) Contiene  los modelos con las variables estandarizadas de tipo casual.
-- [**5.2_modelo_registered1_est.ipynb:**](https://github.com/Adalab/project-da-promo-D-module-3-team-1/blob/main/5.2_modelo_registered1_est.ipynb) Contiene  los modelos con las variables estandarizadas de tipo registered.
-- [**5.3_modelo_casual1_est_princ.ipynb:**](https://github.com/Adalab/project-da-promo-D-module-3-team-1/blob/main/5.3_modelo_casual1_est_princ.ipynb) Contiene  los modelos con las variables estandarizadas de tipo casual, una vez reducidas las variables predictoras.
-- [**5.3_modelo_registered1_est_princ.ipynb:**](https://github.com/Adalab/project-da-promo-D-module-3-team-1/blob/main/5.3_modelo_registered1_est_princ.ipynb) Contiene  los modelos con las variables estandarizadas de tipo registered, una vez reducidas las variables predictoras.
-- [**esquema.md:**](https://github.com/Adalab/project-da-promo-D-module-3-team-1/blob/main/esquema.md) Esquema de la presentación al cliente.
+- [**datos:**](https://github.com/MaitaneP/proyecto3/tree/main/datos) Contiene los archivos con los datos de partida de origen, los datos tratados en sus distintas fases de limpieza y tratado y los resultados (mejores modelos).
+- [**web:**](https://github.com/MaitaneP/proyecto3/tree/main/web) Incluye todos los archivos para el desarrollo de la web y la automatización de la predicción.
+- [**1_reconocimiento_inicial.ipynb:**](https://github.com/MaitaneP/proyecto3/blob/main/1_reconocimiento_inicial.ipynb) Recoge los trabajos de reconocimiento y exploración inicial del dataset.
+- [**2_asunciones.ipynb:**](https://github.com/MaitaneP/proyecto3/blob/main/2_asunciones.ipynb) Incluye el análisis de las asunciones para regresión lineal.
+- [**3_estandarizacion.ipynb:**](https://github.com/MaitaneP/proyecto3/blob/main/3.2_estandarizacion.ipynb) Recoge las tareas de estandarización de las variables predictoras.
+- [**4.1_encoding.ipynb:**](https://github.com/MaitaneP/proyecto3/blob/main/4.1_encoding.ipynb) Contiene las tareas de encoding de las variables predictoras en el dataset sin estandarizar.
+- [**4.2_encoding_con_estandarizacion.ipynb:**](https://github.com/MaitaneP/proyecto3/blob/main/4.2_encoding_con_estandarizacion.ipynb) Recoge las tareas de encoding de las variables predictoras en el dataset estandarizado.
+- [**5.1_modelo_casual1.ipynb:**](https://github.com/MaitaneP/proyecto3/blob/main/5.1_modelo_casual1.ipynb) Contiene los modelos con las variables sin estandarizar de tipo casual.
+- [**5.1_modelo_registered1.ipynb:**](https://github.com/MaitaneP/proyecto3/blob/main/5.1_modelo_registered1.ipynb) Contiene los modelos con las variables sin estandarizar de tipo registered.
+- [**5.2_modelo_casual1_est.ipynb:**](https://github.com/MaitaneP/proyecto3/blob/main/5.2_modelo_casual1_est.ipynb) Contiene  los modelos con las variables estandarizadas de tipo casual.
+- [**5.2_modelo_registered1_est.ipynb:**](https://github.com/MaitaneP/proyecto3/blob/main/5.2_modelo_registered1_est.ipynb) Contiene  los modelos con las variables estandarizadas de tipo registered.
+- [**5.3_modelo_casual1_est_princ.ipynb:**](https://github.com/MaitaneP/proyecto3/blob/main/5.3_modelo_casual1_est_princ.ipynb) Contiene  los modelos con las variables estandarizadas de tipo casual, una vez reducidas las variables predictoras.
+- [**5.3_modelo_registered1_est_princ.ipynb:**](https://github.com/MaitaneP/proyecto3/blob/main/5.3_modelo_registered1_est_princ.ipynb) Contiene  los modelos con las variables estandarizadas de tipo registered, una vez reducidas las variables predictoras.
+- [**esquema.md:**](https://github.com/MaitaneP/proyecto3/blob/main/esquema.md) Esquema de la presentación al cliente.
 
 **LIBRERÍAS:**
 
