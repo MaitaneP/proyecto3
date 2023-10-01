@@ -105,7 +105,6 @@ seaborn==0.12.2
 Send2Trash 
 sidetable==0.9.1
 six
-scikit-learn==0.0.post4
 smmap==5.0.0
 sniffio 
 soupsieve 
